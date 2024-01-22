@@ -1,0 +1,517 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+body{
+    background: linear-gradient(to right,#000000,#262627);
+    animation: body 20s infinite linear;
+    background-size: 300%;
+}
+@keyframes body{
+    0%{
+        background-position: 0 100%;
+    }
+    30%{
+        background-position: 5% 70%;
+    }
+    50%{
+        background-position: 85% 70%;
+    }
+    70%{
+        background-position: 30%;
+    }
+    100%{
+        background-position:  0% 10%;
+    }
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+img{
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 500px;
+    margin-top: 40px;
+    margin-bottom: 8px; 
+}
+.text{
+    font-family: 'Dancing Script', cursive;
+    font-size:40px;
+    letter-spacing: 3px;
+    color: white;
+    width: 500px;
+    margin-left: 350px;
+    text-align: center;
+}
+.text p{
+    color: rgba(255, 255, 255,0.8);
+    font-size: 25px;
+    letter-spacing: 4px;
+    margin-top: 10px; 
+}
+main .container a p{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);  
+    font-size: 40px;  
+    padding: 3px 5px;
+    border-radius: 10px;
+    animation: instagram 3s infinite linear;
+    background-size: 200%;
+}
+main .container a i{
+    font-size: 45px;  
+    margin-right: 5px;
+   
+}
+.fa-telegram{
+    animation: telegram 2s infinite linear;
+}
+@keyframes telegram{
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: rotate(70deg) rotate(-50deg);
+    }
+    100%{
+        transform: scale(1.16);
+    }
+}
+main .container a b{
+    font-size: 28px;
+    color: white;
+    margin-left: 10px;
+    letter-spacing: 2px;  
+}
+main .container a {
+    width: 280px;
+    height: 70px;
+    padding: 10px 10px  10px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    background-color: #ffffff4d;
+    transform: translate(-0%, -0%);
+    overflow: hidden;  
+}
+.div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.fa-tiktok{
+    position: absolute;
+}
+.TikTok{
+    margin-left: 50px !important;
+}
+.color-tiktok1{
+    position: absolute;
+    left: 13.5px;
+    top: 10px;
+    transform: translateX(-0px);
+    animation: tiktok1 1s infinite linear;
+}
+.color-tiktok2{
+    position: absolute;
+    left: 17px;
+    animation: tiktok1 1s infinite linear;
+}
+.color-tiktok3{
+    animation: tiktok1 1s infinite ;
+}
+@keyframes tiktok1{
+    0%{
+        transform: scale(1.02);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: scale(1.09);
+    }
+} 
+@keyframes instagram{
+    0%{
+        background-position: 0 20%; 
+    }
+    30%{
+        background-position: 70%;
+    }
+    40%{
+        background-position: 40% 20%;
+    }
+    50%{ 
+        background-position: 100% 100%;
+    }
+    60%{
+        background-position: 50% 200%;
+    }
+    70%{
+        background-position: 0%;
+    }
+    80%{
+        background-position: 200%;
+    }
+    90%{
+        background-position: 200%;
+    }
+    100%{  
+        background-position: 0 20%;
+    }
+}
+header{
+    padding-bottom: 100px;
+}
+.fa-square-github{
+    animation: github 2s infinite linear;
+}
+@keyframes github{
+    0%{
+        transform: scale(1) ;
+    }
+    50%{
+        transform: rotate(20deg) ;
+    }
+
+    80%{
+        transform: rotate(-20deg);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+
+
+
+
+
+                                                    /* animation */
+ 
+.color-top {
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #f09433 0%, 25%,#dc2743 50%,#cc2366 75%,#bc1888 100% );
+    box-shadow: 0px 0px 20px 0px #e6683c;
+    animation: animate1 2s linear infinite;
+}
+.color-top2{
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    top: 0;
+    box-shadow: 0px 0px 10px 0px #82dfdd;
+    left: 0;
+    background: linear-gradient(to right, #478bff, blue);
+    animation: animate1 2s linear infinite;
+}
+.color-top3{
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right,  rgba(96, 224, 209, 0),#82dfdd,#82dfdd,#82dfdd);
+    filter: drop-shadow( 0,2    0px #82dfdd);
+    animation: animate1 2s linear infinite;
+}
+.color-top4{
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right,#90188c00,  #90188c,#d025ca);
+    filter: drop-shadow( 0, 10px #90188c);
+    animation: animate1 2s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+.color-right{
+    position: absolute;
+    width:6px;
+    height: 100%;
+    top: 0;
+    box-shadow: 0px 0px 20px 0px #e6683c;
+    right: 0;
+    background: linear-gradient(to bottom, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100% );
+    animation: animate2 2s linear infinite;
+    animation-delay: 1s;
+}
+.color-right4{
+    position: absolute;
+    width:6px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to bottom,#90188c00,  #90188c,#d025ca);
+    filter: drop-shadow( 0, 10px #90188c);
+    animation: animate2 2s linear infinite;
+    animation-delay: 1s;
+}
+.color-right3{
+    position: absolute;
+    width:6px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to bottom, rgba(96, 224, 209, 0),#82dfdd,#82dfdd,#82dfdd);
+    filter: drop-shadow( 0,10px #82dfdd);
+    animation: animate2 2s linear infinite;
+    animation-delay: 1s;
+}
+.color-right2{
+    position: absolute;
+    width:6px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    box-shadow: 0px 0px 10px 0px #82dfdd;
+    background: linear-gradient(to bottom, #478bff, blue );
+    animation: animate2 2s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animate2{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(100%);
+
+    }
+} 
+.color-bottom{
+    position: absolute;
+    width: 100%;
+    height:6px;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px 0px 20px 0px #e6683c;
+    background: linear-gradient(to left, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100% );
+    animation: animate3 2s linear infinite
+}
+.color-bottom4{
+    position: absolute;
+    width: 100%;
+    height:6px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to left,#90188c00,  #90188c,#d025ca);
+    filter: drop-shadow( 0, 10px #90188c);
+    animation: animate3 2s linear infinite
+}
+.color-bottom3{
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to left, rgba(96, 224, 209, 0),#82dfdd,#82dfdd,#82dfdd);
+    filter: drop-shadow( 0,10px #82dfdd);
+    animation: animate3 2s linear infinite;
+}
+.color-bottom2{
+    position: absolute;
+    width: 100%;
+    height:6px;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0px 0px 10px 0px #82dfdd;
+    background: linear-gradient(to left, #478bff, blue );
+    animation: animate3 2s linear infinite
+}
+@keyframes animate3{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.color-left{
+    position: absolute;
+    width:6px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100% );
+    box-shadow: 0px 0px 20px 0px #e6683c;
+    animation: animate4 2s linear infinite;
+    animation-delay: 1s;
+}
+.color-left4{
+    position: absolute;
+    width:6px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top,#90188c00,  #90188c,#d025ca);
+    filter: drop-shadow( 0, 10px #90188c);
+    animation: animate4 2s linear infinite;
+    animation-delay: 1s;
+}
+.color-left3{
+    position: absolute;
+    width:6px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, rgba(96, 224, 209, 0),#82dfdd,#82dfdd,#82dfdd);
+    filter: drop-shadow( 0,10px #82dfdd);
+    animation: animate4 2s linear infinite;
+    animation-delay: 1s;
+}
+.color-left2{
+    position: absolute;
+    width:6px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to top, #478bff, blue );
+    box-shadow: 0px 0px 20px 0px #478bff;
+    animation: animate4 2s linear infinite;
+    animation-delay: 1s;
+}
+@keyframes animate4{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(-100%);
+
+    }
+} 
+
+
+
+
+
+                                        /* responsive */
+
+                                                
+
+@media (max-width: 1160px){
+    .container{
+        width: 1040px;
+    }
+    img{
+        margin-left: 450px;
+    }
+    .text{
+        margin-left: 300px;
+    }
+}
+@media (max-width: 1060px){
+    .container{
+        width: 940px;
+    }
+    img{
+        margin-left: 400px;
+    }
+    .text{
+        margin-left: 250px;
+    }
+    main .container a{
+        margin-left:  110px;
+    }
+}
+@media (max-width: 960px){
+    .container{
+        width: 840px;
+    }
+    img{
+        margin-left: 350px;
+    }
+    .text{
+        margin-left: 200px;
+    }
+}
+@media (max-width: 860px){
+    .container{
+        width: 740px;
+    }
+    img{
+        margin-left: 300px;
+    }
+    .text{
+        margin-left: 150px;
+    }
+    main .container a{
+        margin-left: 0;
+    }
+}
+@media (max-width: 760px){
+    .container{
+        width: 640px;
+    }
+    img{
+        margin-left: 250px;
+    }
+    .text{
+        margin-left: 100px;
+    }
+    main .container a{
+        width: 300px;
+        margin-left: 19 0px;
+    }
+}
+@media (max-width: 660px){
+    .container{
+        width: 540px;
+    }
+    img{
+        margin-left: 200px;
+    }
+    .text{
+        margin-left: 50px;
+    } 
+    main .container a{
+        width: 300px;
+        margin-left: 120px;
+    }
+}
+@media (max-width: 560px){
+    .container{
+        width: 440px;
+    } 
+    main .container a{
+        width: 450px;
+        margin-left: 110px;
+    }   
+}
+@media (max-width: 460px){
+    .container{
+        width: 340px;
+    }
+    img{
+        margin-left: 130px;
+    }
+    .text{
+        margin-left:0px;
+    }
+    .div{
+        width: 400px;
+    }
+}
+@media (max-width: 360px){
+    .container{
+        width: 240px;
+    }
+}
